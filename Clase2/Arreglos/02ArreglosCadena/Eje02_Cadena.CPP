@@ -13,7 +13,7 @@ main()
 	printf("\n\tCALCULA LA LONGITUD DE UNA CADENA");
 	printf("\n\t_________________________________\n");
 	printf("\n\tIntroduzca una cadena que tenga menos de 80 caracteres:\n\t");
-	gets(cadena);
+	gets(cadena); // solicita una cadena de hasta 80 caracteres
 	i=0;
 	while (cadena[i]) 	i++;
 	printf("\n\tLa longitud de la cadena ==>%d",i);
