@@ -17,14 +17,14 @@ typedef struct
 {   
     char * Tipo;
     int Bonus;
-    int Defenza;
+    int Defensa;
 }Armadura;
 
 typedef struct
 {
     char * Tipo;
     Arma  * Ataque;
-    Armadura * Defenza;
+    Armadura * Defensa;
 }Personaje;
 
 //ARREGLOS DE CADENA 
@@ -32,31 +32,36 @@ char * TiposDePersonajes[] = {"Mago", "Hada", "Orco", "Guerrera", "Escudero","El
 char * TiposDeArmas[] = {"Espada", "Arco", "Hacha", "Cuchillo", "Espada Milenaria","Latigo"};
 char * TiposDeArmaduras[] = {"Coraza de Metal", "Casco", "Hombreras de Plata", "Botas de guerra", "Greba","Escudo"}; 
 
-
+    
 //Funciones 
-Armadura * CrearArmadura(int defenza, int bonus);
+Armadura * CrearArmadura(int Defensa, int bonus);
 
 int main()
 {
+    int a = 10;
+    int *p = &a ;
+    int **pd = &p;
+
+    printf("%d", *((int *)(*p)));
 
     srand (time(NULL));
     Personaje * player = (Personaje *) malloc(sizeof(Personaje));
     
 
     Armadura * nuevaArmadura  = CrearArmadura(rand() % 5, rand() % 5);
-    player->Defenza = nuevaArmadura;    
+    player->Defensa = nuevaArmadura;    
 
-    printf("%s", player->Defenza->Tipo);    
+    printf("%s", player->Defensa->Tipo);    
     getchar();  
     return 0;
 }
 
-Armadura * CrearArmadura(int defenza, int bonus)
+Armadura * CrearArmadura(int Defensa, int bonus)
 {
     Armadura * nuevaArmadura = (Armadura *) malloc(sizeof(Armadura));  
     int aletorio = rand() % 5;          
     
-    nuevaArmadura->Defenza = defenza;
+    nuevaArmadura->Defensa = Defensa;
     nuevaArmadura->Bonus = bonus;
     
     int tamanio = strlen(TiposDeArmaduras[aletorio]);   
