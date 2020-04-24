@@ -69,7 +69,7 @@ Armadura * CrearArmadura(int Defensa, int bonus)
     nuevaArmadura->Bonus = bonus;
     
     int tamanio = strlen(TiposDeArmaduras[aletorio]);   
-    nuevaArmadura->Tipo = (char *) malloc( sizeof(tamanio) * sizeof(char *));    
+    nuevaArmadura->Tipo = (char *) malloc( tamanio * sizeof(char));    
     strcpy(nuevaArmadura->Tipo,TiposDeArmaduras[aletorio]);
 
 
