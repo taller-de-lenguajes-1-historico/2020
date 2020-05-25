@@ -13,11 +13,11 @@ typedef struct TDocumento {
 }TDocumento;
 
 typedef struct Tnodo {
-    TDocumento Documento; // Documento (dato del nodo)
+    TDocumento * Documento; // Documento (dato del nodo)
     Tnodo * Siguiente; // Siguiente Nodo.
 }Tnodo;
 
-#define CantDocumentos 500
+#define CantDocumentos 10
 
 // 0   - listas de documentos 
 // 0.1 - CrearListaVacia() ok
@@ -52,11 +52,11 @@ int main()
     { 
         //Crear documento
         dAux = CrearDocumento((rand() % 500) + 1 ,TipoDeDocumento[rand() % 2] ,(rand() % 10) + 1);
-        //printf("%s \n", dAux.TipoDeDocumento);
+        printf("%s \n", dAux.TipoDeDocumento);
         //Crear el nodo
         NNodo = CrearNodo(dAux);
-        //printf("%s \n", NNodo->Documento.TipoDeDocumento);
-        //printf("--------- \n");
+        printf("%s \n", NNodo->Documento.TipoDeDocumento);
+        printf("--------- \n");
         // insertar en la lista 
         InsertarNodoALaLista(&ListaPrincipal, NNodo);
     }
@@ -80,7 +80,6 @@ int main()
 
     getchar();
     return 0;
-
 }
 
 Tnodo * CrearListaVacia()
@@ -92,17 +91,21 @@ TDocumento CrearDocumento(int _CantidadDePaginas, char* _TipoDeDocumento, int _V
 {
      TDocumento dAux;
      dAux.CantidadDePaginas = _CantidadDePaginas; 
-     dAux.TipoDeDocumento = _TipoDeDocumento; 
+     dAux.TipoDeDocumento = (char *) malloc(sizeof(char) * strlen(_TipoDeDocumento));
+     strcpy(dAux.TipoDeDocumento,_TipoDeDocumento);
+     /*dAux.TipoDeDocumento = _TipoDeDocumento; */
      dAux.Volumen = _Volumen; 
      return dAux;
 }
 
 Tnodo * CrearNodo(TDocumento Tdoc)
 {
-    Tnodo * aux = (Tnodo *) malloc(sizeof(Tnodo));
-    aux->Documento.CantidadDePaginas = Tdoc.CantidadDePaginas;
-    aux->Documento.TipoDeDocumento = Tdoc.TipoDeDocumento;
-    aux->Documento.Volumen = Tdoc.Volumen;
+    Tnodo * aux = (Tnodo *) malloc(sizeof(Tnodo));    
+    aux->Documento = Tdoc;
+
+    // aux->Documento.CantidadDePaginas = Tdoc.CantidadDePaginas;
+    // aux->Documento.TipoDeDocumento = Tdoc.TipoDeDocumento;
+    // aux->Documento.Volumen = Tdoc.Volumen;
     aux->Siguiente = NULL;
     return aux;
 }
