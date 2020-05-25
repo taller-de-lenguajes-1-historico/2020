@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TareaConsola/1.0.0": {
+        "dependencies": {
+          "ClasesParaTarea": "1.0.0"
+        },
+        "runtime": {
+          "TareaConsola.dll": {}
+        }
+      },
+      "ClasesParaTarea/1.0.0": {
+        "runtime": {
+          "ClasesParaTarea.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TareaConsola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClasesParaTarea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

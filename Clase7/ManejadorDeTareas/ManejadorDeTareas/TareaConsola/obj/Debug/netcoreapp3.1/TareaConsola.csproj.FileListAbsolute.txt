@@ -1,0 +1,16 @@
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.exe
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.deps.json
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.runtimeconfig.json
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.runtimeconfig.dev.json
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.dll
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\TareaConsola.pdb
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.csprojAssemblyReference.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.AssemblyInfoInputs.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.AssemblyInfo.cs
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.csproj.CoreCompileInputs.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.dll
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.pdb
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.genruntimeconfig.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\ClasesParaTarea.dll
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\bin\Debug\netcoreapp3.1\ClasesParaTarea.pdb
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\TareaConsola\obj\Debug\netcoreapp3.1\TareaConsola.csproj.CopyComplete

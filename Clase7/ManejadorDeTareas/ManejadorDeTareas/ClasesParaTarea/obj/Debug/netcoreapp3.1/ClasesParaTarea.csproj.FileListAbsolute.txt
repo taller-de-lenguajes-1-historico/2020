@@ -1,0 +1,9 @@
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\bin\Debug\netcoreapp3.1\ClasesParaTarea.deps.json
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\bin\Debug\netcoreapp3.1\ClasesParaTarea.dll
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\bin\Debug\netcoreapp3.1\ClasesParaTarea.pdb
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.csprojAssemblyReference.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.AssemblyInfoInputs.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.AssemblyInfo.cs
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.csproj.CoreCompileInputs.cache
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.dll
+C:\Repogit\Clases2020\2020\Clase7\ManejadorDeTareas\ManejadorDeTareas\ClasesParaTarea\obj\Debug\netcoreapp3.1\ClasesParaTarea.pdb
