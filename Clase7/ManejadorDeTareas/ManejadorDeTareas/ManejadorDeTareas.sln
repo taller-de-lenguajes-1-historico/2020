@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaConsola", "TareaConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesParaTarea", "ClasesParaTarea\ClasesParaTarea.csproj", "{59BA8FFB-1667-4356-972C-6BB875D478D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaConsolaConListas", "TareaConsolaConListas\TareaConsolaConListas.csproj", "{BEB881D7-9F32-4604-8762-424CE3F9C8E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{59BA8FFB-1667-4356-972C-6BB875D478D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59BA8FFB-1667-4356-972C-6BB875D478D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59BA8FFB-1667-4356-972C-6BB875D478D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB881D7-9F32-4604-8762-424CE3F9C8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB881D7-9F32-4604-8762-424CE3F9C8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB881D7-9F32-4604-8762-424CE3F9C8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB881D7-9F32-4604-8762-424CE3F9C8E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
