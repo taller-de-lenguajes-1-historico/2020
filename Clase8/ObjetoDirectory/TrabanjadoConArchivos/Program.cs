@@ -24,8 +24,8 @@ namespace TrabanjadoConArchivos
 
             string[] MisLineas = { "Prueba 1 ", "Prueba 2" };
             File.WriteAllLines(RutaArchivo, MisLineas);
-
-           
+            
         }
+      
     }
 }

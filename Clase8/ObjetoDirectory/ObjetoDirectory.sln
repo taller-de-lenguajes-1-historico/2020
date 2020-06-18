@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjetoDirectory", "ObjetoDi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabanjadoConArchivos", "TrabanjadoConArchivos\TrabanjadoConArchivos.csproj", "{3C8545CA-84FB-41A7-859F-60D087699B89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabajandoFileStream", "TrabajandoFileStream\TrabajandoFileStream.csproj", "{9578ED3E-EFBF-4BC0-AD19-054E79364F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrabajandoFileStream", "TrabajandoFileStream\TrabajandoFileStream.csproj", "{9578ED3E-EFBF-4BC0-AD19-054E79364F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectorCSV", "LectorCSV\LectorCSV.csproj", "{F6A49B5F-63D0-4E75-A023-5B57A84FB99F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9578ED3E-EFBF-4BC0-AD19-054E79364F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9578ED3E-EFBF-4BC0-AD19-054E79364F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9578ED3E-EFBF-4BC0-AD19-054E79364F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A49B5F-63D0-4E75-A023-5B57A84FB99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A49B5F-63D0-4E75-A023-5B57A84FB99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A49B5F-63D0-4E75-A023-5B57A84FB99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A49B5F-63D0-4E75-A023-5B57A84FB99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
