@@ -8,7 +8,8 @@ namespace TareaConsolaConListas
     {
         static void Main(string[] args)
         {
-            List<Tarea> ListaDeDatos = new List<Tarea>();
+            List<Tarea> ListaDeTareas = new List<Tarea>();
+                      
 
             string salida = "";
             int num = 0;
@@ -21,17 +22,17 @@ namespace TareaConsolaConListas
                 Ntarea.NombreDeTarea = DescTarea;
                 Ntarea.Importancia = num++;
                 Ntarea.Fecha = System.DateTime.Now.AddDays(num);
-                Ntarea.Estado = EstadoTarea.Pendiente;
+                
 
-                ListaDeDatos.Add(Ntarea);
-
+                ListaDeTareas.Add(Ntarea);                
+                
                 Console.WriteLine("¿Desea ingrear una nueva tarea (s/n)?");
                 salida = Console.ReadLine();
             } while (salida != "n");
 
-            ListaDeDatos[0].Estado = EstadoTarea.Concluida;
+            ListaDeTareas[0].Estado = EstadoTarea.Concluida;
 
-            foreach (Tarea TareaX in ListaDeDatos)
+            foreach (Tarea TareaX in ListaDeTareas)
             {
                 Console.WriteLine(TareaX.Importancia + " - " + TareaX.NombreDeTarea +" - " + TareaX.Estado);
             }
